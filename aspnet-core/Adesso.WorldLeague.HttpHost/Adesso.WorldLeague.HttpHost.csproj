@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+	<RootNamespace>Adesso.WorldLeague</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.12" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Adesso.WorldLeague.ApplicationContracts\Adesso.WorldLeague.ApplicationContracts.csproj" />
+    <ProjectReference Include="..\Adesso.WorldLeague.Application\Adesso.WorldLeague.Application.csproj" />
+    <ProjectReference Include="..\Adesso.WorldLeague.EntityFrameworkCore\Adesso.WorldLeague.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+
+</Project>

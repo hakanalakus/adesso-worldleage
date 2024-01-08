@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aspnet-core", "aspnet-core", "{AADF957A-4507-4D3A-AA29-D4C66F80AA0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adesso.WorldLeague.Application", "aspnet-core\Adesso.WorldLeague.Application\Adesso.WorldLeague.Application.csproj", "{8B78DAA1-1E73-4065-A537-C0A64872A576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adesso.WorldLeague.ApplicationContracts", "aspnet-core\Adesso.WorldLeague.ApplicationContracts\Adesso.WorldLeague.ApplicationContracts.csproj", "{6DB04E77-1DD5-4F51-99B5-7A96951C0FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adesso.WorldLeague.Domain", "aspnet-core\Adesso.WorldLeague.Domain\Adesso.WorldLeague.Domain.csproj", "{32AA95AE-3DA8-49F1-8FD3-1F3EC1638295}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adesso.WorldLeague.DomainShared", "aspnet-core\Adesso.WorldLeague.DomainShared\Adesso.WorldLeague.DomainShared.csproj", "{6613CEB6-A859-4F61-8707-FC6D6953B3AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adesso.WorldLeague.EntityFrameworkCore", "aspnet-core\Adesso.WorldLeague.EntityFrameworkCore\Adesso.WorldLeague.EntityFrameworkCore.csproj", "{69FF82EB-D8A8-4C6B-8DEF-E087F8447D19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adesso.WorldLeague.HttpHost", "aspnet-core\Adesso.WorldLeague.HttpHost\Adesso.WorldLeague.HttpHost.csproj", "{E0C2D347-518A-41C2-B780-78609FFC350D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B78DAA1-1E73-4065-A537-C0A64872A576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B78DAA1-1E73-4065-A537-C0A64872A576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B78DAA1-1E73-4065-A537-C0A64872A576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B78DAA1-1E73-4065-A537-C0A64872A576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DB04E77-1DD5-4F51-99B5-7A96951C0FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB04E77-1DD5-4F51-99B5-7A96951C0FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB04E77-1DD5-4F51-99B5-7A96951C0FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB04E77-1DD5-4F51-99B5-7A96951C0FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32AA95AE-3DA8-49F1-8FD3-1F3EC1638295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32AA95AE-3DA8-49F1-8FD3-1F3EC1638295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32AA95AE-3DA8-49F1-8FD3-1F3EC1638295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32AA95AE-3DA8-49F1-8FD3-1F3EC1638295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6613CEB6-A859-4F61-8707-FC6D6953B3AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6613CEB6-A859-4F61-8707-FC6D6953B3AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6613CEB6-A859-4F61-8707-FC6D6953B3AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6613CEB6-A859-4F61-8707-FC6D6953B3AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69FF82EB-D8A8-4C6B-8DEF-E087F8447D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69FF82EB-D8A8-4C6B-8DEF-E087F8447D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69FF82EB-D8A8-4C6B-8DEF-E087F8447D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69FF82EB-D8A8-4C6B-8DEF-E087F8447D19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0C2D347-518A-41C2-B780-78609FFC350D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0C2D347-518A-41C2-B780-78609FFC350D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0C2D347-518A-41C2-B780-78609FFC350D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0C2D347-518A-41C2-B780-78609FFC350D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B78DAA1-1E73-4065-A537-C0A64872A576} = {AADF957A-4507-4D3A-AA29-D4C66F80AA0E}
+		{6DB04E77-1DD5-4F51-99B5-7A96951C0FE5} = {AADF957A-4507-4D3A-AA29-D4C66F80AA0E}
+		{32AA95AE-3DA8-49F1-8FD3-1F3EC1638295} = {AADF957A-4507-4D3A-AA29-D4C66F80AA0E}
+		{6613CEB6-A859-4F61-8707-FC6D6953B3AF} = {AADF957A-4507-4D3A-AA29-D4C66F80AA0E}
+		{69FF82EB-D8A8-4C6B-8DEF-E087F8447D19} = {AADF957A-4507-4D3A-AA29-D4C66F80AA0E}
+		{E0C2D347-518A-41C2-B780-78609FFC350D} = {AADF957A-4507-4D3A-AA29-D4C66F80AA0E}
+	EndGlobalSection
+EndGlobal

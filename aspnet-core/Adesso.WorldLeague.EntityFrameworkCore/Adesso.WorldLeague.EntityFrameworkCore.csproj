@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Adesso.WorldLeague</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Adesso.WorldLeague.DomainShared\Adesso.WorldLeague.DomainShared.csproj" />
+    <ProjectReference Include="..\Adesso.WorldLeague.Domain\Adesso.WorldLeague.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

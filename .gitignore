@@ -1,0 +1,40 @@
+# Binaries
+*.dll
+*.exe
+
+# Build artifacts
+**/bin/
+**/obj/
+
+# NuGet packages
+*.nupkg
+
+# Visual Studio files
+*.user
+*.suo
+*.cache
+*.log
+*.vspscc
+*.vssscc
+.DS_Store
+
+# .NET Core
+project.lock.json
+project.assets.json
+
+# OSX
+.DS_Store
+
+# Node.js
+node_modules/
+
+# Visual Studio Code
+**/.vscode
+
+# Visual Studio
+**/.vs
+
+# Log
+**/Logs
+
+aspnet-core/**/appsettings.Development.json
