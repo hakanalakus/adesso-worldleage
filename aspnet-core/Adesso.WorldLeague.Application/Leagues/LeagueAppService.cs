@@ -1,4 +1,5 @@
 ﻿using Adesso.WorldLeague.Base;
+using Adesso.WorldLeague.Countries;
 using Adesso.WorldLeague.Exceptions;
 using Adesso.WorldLeague.Groups;
 using Adesso.WorldLeague.Teams;
@@ -35,7 +36,6 @@ namespace Adesso.WorldLeague.Leagues
                 input.CreatorSurname
             };
 
-            var selectedTeamIds = new List<Guid>();
             var teamCount = teams.Count / input.GroupCount;
 
             for (int i = 0; i < input.GroupCount; i++)
@@ -77,8 +77,7 @@ namespace Adesso.WorldLeague.Leagues
 
         private List<Team> ShuffleTeams(List<Team> teams)
         {
-            teams = teams.OrderBy(x => Random.Shared.Next()).ToList(); //Shuffle
-            var groupedTeams = teams.GroupBy(x => x.CountryId).ToList();
+            var groupedTeams = teams.OrderBy(x => Random.Shared.Next()).GroupBy(x => x.CountryId).ToArray(); //Shuffle
             var result = new List<Team>();
 
             for (int i = 0; i < 4; i++)
